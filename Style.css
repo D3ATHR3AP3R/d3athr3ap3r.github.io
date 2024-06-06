@@ -1,0 +1,58 @@
+﻿@font-face {
+    font-family: "Newrocker-Gy5a";
+    src: 'font/Newrocker-Gy5a.ttf';
+}
+
+html{
+    font-family: Newrocker-Gy5a;
+}
+
+h1 {
+    font-family: Newrocker-Gy5a;
+}
+
+h2 {
+    font-family: Newrocker-Gy5a;
+}
+
+h3 {
+    font-family: Newrocker-Gy5a;
+}
+
+h4 {
+    font-family: Newrocker-Gy5a;
+}
+
+h5 {
+    font-family: Newrocker-Gy5a;
+}
+
+p {
+    font-family: Newrocker-Gy5a;
+}
+
+a {
+    font-family: Newrocker-Gy5a;
+}
+
+body{
+    font-family: Newrocker-Gy5a;
+}
+
+.material-icons {
+    vertical-align: middle;
+    line-height: 1px;
+}
+
+.navbar-brand > .material-icons {
+    font-size: 40px;
+}
+
+.about > .material-icons {
+    font-size: 50px;
+}
+
+.carousel-image {
+    width: 600px;
+    height: 350px;
+}

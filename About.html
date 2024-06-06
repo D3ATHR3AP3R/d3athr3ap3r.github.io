@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <!--Bootstrap css-->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container-fluid px-0">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 30 24">
+                        <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5" />
+                    </svg>
+                    Idle Not Idle Games
+                </a>
+                <button type="button"
+                        class="navbar-toggler"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="container-fluid px-3">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class=" navbar-nav ms-auto me-4 my-3 my-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="./About.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="./Project.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="./Contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--Main Info-->
+        <div class="container-fluid py-5">
+            <div class="row justify-contetn-center">
+                <h2 class="fw-bold">About</h2>
+                <p class="lead text-muted mb-5">
+                    I am a game designer and developer who mainly focuses on small scale games, mostly styled in 3D, with the occasional 2D.<br />
+                    I mainly focus on survival, simulation, and adventure/metroidvania genres for my games.<br />
+                    I develop and test all the mechanics for the games in house, while most art is currently placeholder art assets that I am using<br />
+                    whilst doing courses and developing the art and graphics myself.
+                </p>
+            </div>
+        </div>
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-lg-4 mx-auto mb-5">
+                    <div class=" d-flex mb-5 about">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-palette material-icons" viewBox="0 0 16 16">
+                            <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
+                            <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8m-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7" />
+                        </svg>
+                    </div>
+                    <h5>Design</h5>
+                    <p class="text-muted mb-0">
+                        I create and design the mechanics and systems for the game,<br />
+                        documenting the stages of development for easier review.
+                    </p>
+                </div>
+                <div class="col-lg-4 mx-auto mb-5">
+                    <div class=" d-flex mb-5 about">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-code" viewBox="0 0 16 16">
+                            <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8z" />
+                        </svg>
+                    </div>
+                    <h5>Development</h5>
+                    <p class="text-muted mb-0">
+                        I develop and implement the mechanics and systems,<br />
+                        using C# in the Unity Engine, following the best code practices. 
+                    </p>
+                </div>
+                <div class="col-lg-4 mx-auto mb-5">
+                    <div class=" d-flex mb-5 about">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                            <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0" />
+                            <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z" />
+                        </svg>
+                    </div>
+                    <h5>Launch & Maintenance</h5>
+                    <p class="text-muted mb-0">
+                        I publish all projects on Itch.io,<br />
+                        creating descriptions and adding screenshots of gameplay,<br />
+                        aswell as updating the projects with new content and patches.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <!--Info if needed-->
+
+        </main>
+
+    </div>
+    <!--Bootstrap JS-->
+    <script src="bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <!--Bootstrap css-->
+    <link href="../bootstrap.min.css" rel="stylesheet">
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="../Style.css">
+</head>
+<body>
+    <div class="container-fluid px-0">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 30 24">
+                        <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5" />
+                    </svg>
+                    Idle Not Idle Games
+                </a>
+                <button type="button"
+                        class="navbar-toggler"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="container-fluid px-3">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class=" navbar-nav ms-auto me-4 my-3 my-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="../About.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="../Project.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="../Contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--Main Section-->
+        <h1 class="fw-bold">Project Revalo</h1>
+        <div id="carouselExample" class="carousel slide carousel-image" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./Menu.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./Controls.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./Section1.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./Section2.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./Section3.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./Section4.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./Spawn.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./Boss1.png" alt="Third slide">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <p class="lead text-muted mb-5">
+            You have awoken in a strange and unknown area, after walking around you realize there are unfamiliar monsters around that are hell-bent on killing you.<br />
+
+            The problem is that each time you "die" you wake up again at the start, even if you jump and disappear into the unknown darkness, you will wake up again.<br />
+            Thus you need to find out what happened to you, where you are, and what you are. Gain new powers and abilities as you explore the world and uncover more secrets.<br />
+
+            Can you discover it all?
+        </p>
+        <p class="lead text-muted mb-5">
+            Having started as a game jam during the Santa Game Jam, I found the idea interesting as it was a metroidvania game similar to Dead Cells, I have thus shifted it over as a main project.<br />
+            Working on further updates and abilities, I have created the ability system to keep track of abilities unlocked during a gameplay session, thus allowing the players to keep unlocked abilities.<br />
+            These include double jump, transformation, and a sprint/dodge ability, allowing the player to traverse further in the game, as well as more styles of combat.<br />
+            I have also built in a boss fight, utilizing a shooting mechanic, which can now be implemented for more enemies further into the game.<br />
+            One of the core features of the game that I am developing is the respawn system, allowing players to restart without having to come back all the way from the start.
+        </p>
+
+    </div>
+    <!--Bootstrap JS-->
+    <script src="../bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

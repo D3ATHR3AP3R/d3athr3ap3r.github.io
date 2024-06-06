@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <!--Bootstrap css-->
+    <link href="../bootstrap.min.css" rel="stylesheet">
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="../Style.css">
+</head>
+<body>
+    <div class="container-fluid px-0">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 30 24">
+                        <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5" />
+                    </svg>
+                    Idle Not Idle Games
+                </a>
+                <button type="button"
+                        class="navbar-toggler"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="container-fluid px-3">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class=" navbar-nav ms-auto me-4 my-3 my-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="../About.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="../Project.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="../Contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--Main Section-->
+        <h1 class="fw-bold">Project Rebellion</h1>
+        <div id="carouselExample" class="carousel slide carousel-image" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./Menu.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./Stats.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./Section1.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./Water.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./Building.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./FilledInventory.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./Craft.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./Equip.png" alt="Third slide">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <p class="lead text-muted mb-5">
+            You are a professor of technology with an interest in human-computer interaction. You've been sent on a mission to explore the world and collect data to study your theories on the connection between man and technology.<br />
+            But as you explored the world, suddenly you were attacked by soldiers that call themselves "warriors of the light", you managed to escape but your ship was heavily damaged and now are stranded on this planet so far away from home.<br />
+            You spent the past few months living among the people of Revalon, but soon found that you are not safe here either. As an outsider, no one will grant you protection or understanding. You cannot stay in this world forever, waiting for someone else to find you.<br />
+            You must find a way to escape - whichever way possible. You start gathering resources, developing your self and building all the technology that you can remember as you will need it all to survive and escape.<br />
+            Your life is a game of survival, you have to figure out who are the good guys and who are the bad. You've gotten close to some people here, but others make it clear that they will do anything to get rid of you.<br />
+            Soon you'll need allies if your plan is going to work, but it's difficult because Revalonians distrust outsiders - they might be more dangerous than the soldiers attacking them. As an outsider, no one will understand or support you.<br />
+            That's why you've decided to create your own help, but it'll take time for your base to reach the level necessary for creating such help.
+        </p>
+        <p class="lead text-muted mb-5">
+            Having started as a game jam during the Ai and Games Game Jam, I wanted to learn more regarding implementing in game Ai, and what better way than a complex survival game where there are multiple Ai controlled NPCs to do so.<br />
+            I have created a basic Ai state machine, for enemy/wild creature encounters, where some will flee, some will fight, and the others will not bother you unless you bother them first.<br />
+            The systems include crafting, building, cooking and other systems needed for you to survive and expand your base, I have also created an interaction system for developing puzzles and challanges around the world.<br />
+            This inlcudes doors that need switches that are triggered by heavy objects, even fires that can burn and cause harm to the player.<br />
+            There is also a day/night system, together with procedural generation for the world terrain and environment, allowing for different biomes to be created automatically.<br />
+        </p>
+
+    </div>
+    <!--Bootstrap JS-->
+    <script src="../bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
